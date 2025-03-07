@@ -168,7 +168,7 @@ footer {
 
 /* media queries*/
 @media (min-width: 700px) {
-  :Root {
+  :root {
     --bg-url: url(/Assets/bg-desktop.jpg);
   }
 
@@ -183,7 +183,9 @@ footer {
     left: 0;
   }
 
-  to{left: 50%;}
+  to {
+    left: 50%;
+  }
 }
 
 @keyframes slide-dark {
@@ -191,5 +193,7 @@ footer {
     left: 50%;
   }
 
-  to{left: 0;}
+  to {
+    left: 0;
+  }
 }
